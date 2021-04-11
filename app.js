@@ -18,4 +18,18 @@ const navSlide = () => {
     });  
 }
 
-navSlide();
+const rickroll = () => {
+    const doboz = document.querySelector('.rickroll');
+
+    doboz.addEventListener('mouseover', () =>{
+        window.location = 'https://bit.ly/3t5QHkm';
+    });
+}
+
+
+const asd = ()=>{
+    navSlide();
+    rickroll();
+}
+
+asd();

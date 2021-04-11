@@ -14,7 +14,7 @@ body{
 }
 
 .szoveg{
-    padding: 2% 25% 0 25%;   
+    padding: 6% 25% 0 25%;   
     font-size: 1.5em;
     text-align: justify;
 }
@@ -38,7 +38,7 @@ body{
     padding: 7px;
 }
 
-#arpadfeszty{
+#kep{
     width: 100%;
 }
 
@@ -49,6 +49,8 @@ nav{
     background-color: rgb(199, 170, 127);
     font-family: 'Varela Round', sans-serif;
     min-height: 10vh;
+    width: 100%;
+    position: fixed;
 }
 
 .cim{
@@ -119,6 +121,11 @@ nav{
         display: block;
     }
   
+    #istvan{
+        width: 25%;
+        float: right;
+        padding: 7px;
+    }
 }
 
 .nav-active{
@@ -144,4 +151,14 @@ nav{
 }
 .toggle .vonal3{
     transform: rotate(45deg) translateY(-10px);
+}
+
+.rickroll{
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
 }
