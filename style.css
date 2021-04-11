@@ -14,7 +14,7 @@ body{
 }
 
 .szoveg{
-    padding: 6% 25% 0 25%;   
+    margin: 0 25% 0 25%;   
     font-size: 1.5em;
     text-align: justify;
 }
@@ -50,7 +50,6 @@ nav{
     font-family: 'Varela Round', sans-serif;
     min-height: 10vh;
     width: 100%;
-    position: fixed;
 }
 
 .cim{
