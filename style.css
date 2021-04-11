@@ -4,6 +4,44 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(../pics/pergamen.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.szoveg{
+    padding: 2% 25% 0 25%;   
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.szoveg h1{
+    padding: 10px;
+    text-align: center;  
+}
+
+.szoveg h3{
+    padding: 10px 0 10px 0;
+}
+
+.szoveg p{
+    padding: 10px 0 10px 0;
+}
+
+#istvan{
+    width: 20%;
+    float: right;
+    padding: 7px;
+}
+
+#arpadfeszty{
+    width: 100%;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -32,8 +70,13 @@ nav{
     font-weight: bold;
 }
 
+#aktiv{
+    text-decoration: underline;
+}
+
 .linkek a:hover{
     text-decoration: underline;
+    text-decoration-color: rgb(104, 101, 101);
 }
 
 .burger{
@@ -57,13 +100,13 @@ nav{
     .linkek{
         position: absolute;
         right: 0px;
-        height: 92vh;
+        height: 60vh;
         top: 10vh;
         background-color: rgb(199, 170, 127);
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 25%;
+        width: 20%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
