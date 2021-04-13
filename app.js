@@ -2,9 +2,11 @@ const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.linkek');
     const linkek = document.querySelectorAll('.linkek li');
+    const navbar = document.querySelector('.navbar');
 
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
+        navbar.classList.toggle('fixed');
 
         linkek.forEach((link,index) => {
             if(link.style.animation){

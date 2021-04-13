@@ -131,7 +131,7 @@ nav{
     }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
     body{
         overflow-x: hidden;       
     }
@@ -177,6 +177,11 @@ nav{
 .nav-active{
     transform: translateY(0);
     padding-bottom: 50px;
+    position: fixed;
+}
+
+.fixed{
+    position: fixed;
 }
 
 @keyframes navlinkfade{
