@@ -152,6 +152,7 @@ nav{
 
     .burger{
         display: block;
+        margin-right: 10px;
     }
   
     #istvan{
@@ -160,8 +161,9 @@ nav{
         padding: 7px;
     }
 
-    .cim{
+    .cim h3{
         font-size: 20px;
+        margin-left: 10px;
     }
 
     .szoveg{
