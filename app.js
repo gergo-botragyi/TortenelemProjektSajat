@@ -26,7 +26,6 @@ const rickroll = () => {
     });
 }
 
-
 const asd = ()=>{
     navSlide();
     rickroll();
